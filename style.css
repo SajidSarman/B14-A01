@@ -235,7 +235,6 @@ nav {
 /* hackathon-start */
 .hackathon {
     padding: 100px 0;
-    background: #f8fafc;
 }
 
 .container {
@@ -345,19 +344,30 @@ nav {
     background: #e5e7eb;
 }
 
-/* @media (max-width:768px){
-
-    .hackathon-content{
-        flex-direction: column;
-    }
-
-    .section-header h2{
-        font-size:32px;
-    }
-
-    .prize-card{
-        width:100%;
-    }
-} */
 
 /* hackathon-end */
+
+footer {
+    background-color: #0d1b2a;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
