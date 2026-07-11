@@ -7,7 +7,6 @@ img {
     max-width: 100%;
 }
 
-/* Common Button */
 .nav-btn {
     background-color: #1D4ED8;
     /* font-family: "Inter", sans-serif; */
@@ -65,7 +64,7 @@ nav {
     padding: 15px 30px;
     border: none;
     border-radius: 10px;
-    margin-top: 200px;
+    margin-top: 220px;
     width: 150px;
     
 }
@@ -87,7 +86,7 @@ nav {
 }
 .hero-content h1 {
     font-size: 80px;
-    margin-top: 100px;
+    /* margin-top: 10px; */
 }
 .hero-content p {
     font-size: 22px;
@@ -226,3 +225,4 @@ nav {
 .price-ul li {
     padding: 5px;
 }
+/* price-end */
