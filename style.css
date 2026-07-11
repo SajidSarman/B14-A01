@@ -1,22 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
+}
+img {
+    max-width: 100%;
 }
 
 /* Common Button */
 .nav-btn {
     background-color: #1D4ED8;
-    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
     font-weight: bold;
     color: white;
-    padding: 0 20px;
+    padding: 0 35px;
     border: none;
     border-radius: 10px;
 }
 
 header {
     background-color: rgb(255, 255, 255);
-    
 }
 
 nav {
@@ -27,17 +30,17 @@ nav {
     margin: auto;
 }
 
-ul {
+.nav-ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 
-ul li a {
+.nav-ul li a {
     text-decoration: none;
-    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
     color: #575757;
 }
 
@@ -50,40 +53,176 @@ ul li a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 
 .hero-btn {
     background-color: #1D4ED8;
-    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
     font-weight: bold;
     color: white;
     padding: 15px 30px;
     border: none;
     border-radius: 10px;
-    /* margin-top: 300px; */
+    margin-top: 200px;
+    width: 150px;
+    
 }
 
 .overlay {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-content {
     text-align: center;
     color: rgb(255, 255, 255);
-    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
     max-width: 1200px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-
 }
 .hero-content h1 {
     font-size: 80px;
-    margin: 20px;
+    margin-top: 100px;
 }
 .hero-content p {
     font-size: 22px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* meet-start*/
+.speakers {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.speakers h1 {
+    text-align: center;
+    margin: 40px 0;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speaker-card {
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 10px;
+}
+.pics {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.s-category {
+    color: #2563eb;
+}
+
+.speaker-info {
+    padding: 20px;
+}
+.speaker-info h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.desc {
+    color: #575757;
+    margin-top: 10px;
+}
+
+/* Meet-end */
+
+/* price-start */
+.pricing {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.pricing > h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 48px;
+}
+.pricing > p{
+    text-align: center;
+    padding: 10px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.stand-team-card {
+    border: 1px solid rgb(214, 214, 218);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+
+.stand-team-card h1 {
+    padding: 5px 0;
+}
+
+.stand-team-card p {
+    margin-bottom: 25px;
+}
+
+.pro-card h1 {
+    padding: 5px 0;
+}
+
+.pro-card p {
+    margin-bottom: 25px;
+}
+
+.pro-card {
+    background-color: #0d1b2a;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* .team-card {
+    border: 1px solid blue;
+    padding: 30px;
+    border-radius: 10px;
+} */
+
+.price-btn {
+    font-weight: bold;
+    color: #2563eb;
+    padding: 15px 100px;
+    border: 1px solid #2563eb;
+    border-radius: 10px;
+}
+
+.pro-btn {
+    background-color: #2563eb;
+    font-weight: bold;
+    color: white;
+    padding: 15px 100px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.price-ul {
+    /* margin-left: 18px; */
+    padding: 20px;
+}
+.price-ul li {
+    padding: 5px;
 }
